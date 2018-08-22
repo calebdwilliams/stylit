@@ -1,0 +1,36 @@
+{
+  "name": "stylit",
+  "version": "0.1.0",
+  "description": "\"Dynamic CSSStyleSheets constructed in browser using JavaScript template literals\"",
+  "main": "lib/stylit.min.js",
+  "module": "lib/stylit.min.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "uglifyjs lib/stylit.js -o lib/stylit.min.js -m",
+    "prerelease": "npm run build",
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags origin master; npm publish"
+  },
+  "keywords": [
+    "CSS",
+    "stylesheet",
+    "JavaScript",
+    "web",
+    "components",
+    "custom",
+    "elements",
+    "template",
+    "literal"
+  ],
+  "author": "Caleb D. Williams <caleb.d.williams@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "standard-version": "^4.4.0",
+    "uglify-es": "^3.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calebdwilliams/stylit"
+  }
+}
