@@ -63,8 +63,6 @@ const registry = new StyleSheetRegistry();
 reg.load('lato', 'https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic').then(console.log);
 ```
 
-Attempting to adopt a non-defined stylesheet will currently trigger an interval until the sheet is defined. This could cause performance issues and will be addressed in a later release.
-
 ## Demo
 
 You can see a [working demo of Stylit (and templiteral) on CodePen](https://codepen.io/calebdwilliams/pen/mXBryE).
