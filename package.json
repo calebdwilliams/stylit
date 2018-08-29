@@ -1,6 +1,6 @@
 {
   "name": "stylit",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "\"Dynamic CSSStyleSheets constructed in browser using JavaScript template literals\"",
   "main": "lib/stylit.min.js",
   "module": "lib/stylit.min.js",
